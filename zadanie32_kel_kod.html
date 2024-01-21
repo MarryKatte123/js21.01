@@ -1,0 +1,40 @@
+<html>
+<head>
+ <script type="text/javascript">
+ function okno_zamknij_keler()
+ {
+ window.close()
+ }
+21
+ </script>
+</head>
+<body>
+ <form>
+ <textarea name="keler" cols="80" rows="25" disabled>
+    <html>
+ <head>
+ <script type="text/javascript">
+ function owoc(jaki_k,rodzaj_k,kolor_k)
+{
+this.rodzaj=rodzaj_k;
+this.jaki=jaki_k;
+this.kolor=kolor_k;
+}
+ owoc.prototype.wypisz_keler = function () 
+ {
+ alert(this.rodzaj + ' ' + this.jaki+ ' ' + this.kolor);
+ };
+var owoc1 = new owoc('mango', "duze", "zolty"); 
+var owoc2 = new owoc('truskawka', 'mala', 'czerwony');
+owoc1.wypisz_keler(); 
+owoc2.wypisz_keler();
+ document.write("dostęp do właściwości"+"<br>");
+
+ document.write("owoc pierwszy"+" "+owoc1.rodzaj+" "+owoc1.jaki+" "+owoc1.kolor);
+ </script>
+ </head>
+<body>
+<br>
+ programowanie obiektowe
+</body>
+</html>
